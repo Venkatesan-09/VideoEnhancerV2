@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Build and distribution
+build/
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+!backend/.env.example
+
+# Temporary media files (preserve .gitkeep)
+backend/temp/uploads/*
+!backend/temp/uploads/.gitkeep
+backend/temp/outputs/*
+!backend/temp/outputs/.gitkeep
+temp/uploads/*
+!temp/uploads/.gitkeep
+temp/outputs/*
+!temp/outputs/.gitkeep
+
+# System and editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+

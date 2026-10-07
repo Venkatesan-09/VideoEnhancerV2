@@ -1,0 +1,6 @@
+{
+  "name": "Video Quality Enhancer",
+  "description": "A lightweight, production-quality MVP for video quality analysis and 720p enhancement using FastAPI and FFmpeg.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
